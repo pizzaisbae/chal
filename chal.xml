@@ -8,7 +8,19 @@
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="154"></block>
+          <block type="movement_stop" id="154">
+            <next>
+              <block type="movement_forward" id="236">
+                <next>
+                  <block type="movement_forward" id="247">
+                    <next>
+                      <block type="movement_stop" id="321"></block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
