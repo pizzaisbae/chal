@@ -17,7 +17,11 @@
                   </block>
                 </value>
                 <next>
-                  <block type="movement_stop" id="7"></block>
+                  <block type="movement_stop" id="7">
+                    <next>
+                      <block type="movement_right" id="101"></block>
+                    </next>
+                  </block>
                 </next>
               </block>
             </next>
